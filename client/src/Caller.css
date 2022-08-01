@@ -1,0 +1,62 @@
+.button-cluster {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.button-cluster button {
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  background: lightblue;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button-cluster button:hover {
+  background: lightgrey;
+}
+
+img {
+  width: 50%;
+}
+
+input {
+  width: 295px;
+  height: 35px;
+  border: 0px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+.head {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+nav {
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  width: 60%;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
